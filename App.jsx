@@ -30,3 +30,56 @@ export default function App() {
     </Router>
   );
 }
+
+// pages/Home.jsx
+export function Home() {
+  return (
+    <div>
+      <h1 className="text-3xl font-bold mb-4">Welcome to My Portfolio</h1>
+      <p className="text-lg">Hi, I'm Ayan Bhatia. I'm passionate about robotics, embedded systems, and product design. Explore my projects to learn more.</p>
+    </div>
+  );
+}
+
+// pages/Projects.jsx
+export function Projects() {
+  return (
+    <div>
+      <h1 className="text-3xl font-bold mb-4">Projects</h1>
+      <ul className="list-disc ml-6 space-y-2">
+        <li>Penn Aerial Robotics - 2025 Design Report</li>
+        <li>TOM Projects: LED Toy, Mobility Trainer, T-Ball Set</li>
+        <li>Embedded Systems Lab - Morse Code, Theremin, Pong</li>
+        <li>RISC-V Processor Design (GitHub)</li>
+        <li>Signal Processing - Face Recognition, JPEG, Voice Recognition</li>
+        <li>Design Projects - Drag Simulation, Theremin</li>
+      </ul>
+    </div>
+  );
+}
+
+// pages/About.jsx
+export function About() {
+  return (
+    <div>
+      <h1 className="text-3xl font-bold mb-4">About Me</h1>
+      <p className="text-lg mb-2">I'm currently pursuing a BSE in Electrical Engineering and an MSE in Robotics at the University of Pennsylvania.</p>
+      <p className="text-lg">My work spans robotics, embedded systems, digital design, and ethical technology development. I enjoy building systems that are both functional and meaningful.</p>
+    </div>
+  );
+}
+
+// pages/Contact.jsx
+export function Contact() {
+  return (
+    <div>
+      <h1 className="text-3xl font-bold mb-4">Contact</h1>
+      <p className="text-lg">Feel free to reach out to me at:</p>
+      <ul className="mt-4 space-y-2">
+        <li>Email: ayan@example.com</li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/ayanbhatia" className="text-blue-600 underline">linkedin.com/in/ayanbhatia</a></li>
+        <li>GitHub: <a href="https://github.com/ayanbhatia" className="text-blue-600 underline">github.com/ayanbhatia</a></li>
+      </ul>
+    </div>
+  );
+}
